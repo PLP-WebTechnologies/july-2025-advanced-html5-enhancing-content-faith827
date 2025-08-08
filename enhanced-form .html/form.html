@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form, List, Table & Media Example</title>
+</head>
+<body>
+
+<header>
+    <h1>My Sample Page</h1>
+</header>
+
+<main>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required autocomplete="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email"><br><br>
+
+            <label for="readonly-example">Membership ID (Read Only):</label><br>
+            <input type="text" id="readonly-example" value="12345" readonly><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- List Section -->
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Graphic Design</li>
+            <li>Digital Marketing</li>
+        </ul>
+
+        <h3>Steps to Get Started</h3>
+        <ol>
+            <li>Fill out the contact form</li>
+            <li>Wait for our reply</li>
+            <li>Start your project</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Pricing Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                    <th>Delivery Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Development</td>
+                    <td>$500</td>
+                    <td>2 Weeks</td>
+                </tr>
+                <tr>
+                    <td>Graphic Design</td>
+                    <td>$200</td>
+                    <td>1 Week</td>
+                </tr>
+                <tr>
+                    <td>Digital Marketing</td>
+                    <td>$300</td>
+                    <td>10 Days</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Media Section -->
+    <section>
+        <h2>Media Examples</h2>
+
+        <h3>Image</h3>
+        <img src="https://via.placeholder.com/300" alt="Sample Image" width="300">
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 My Sample Page. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
